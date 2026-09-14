@@ -56,3 +56,15 @@ def solution(number):
 - Developed urban planning documentation and managed projects independently.
 - Communicated with clients and regulatory authorities.
 - Mentored junior staff members.
+
+## Education
+
+### School 42 Berlin (2024 — 2026)
+Programming (Backend, Systems Software) — peer-to-peer learning: C/C++, Unix, networking, algorithms, software architecture.
+
+### SPbSUACE — Bachelor of Architecture (2017 — 2022)
+Saint Petersburg. ZAB evaluation: equivalent to a German university Bachelor's degree.
+
+## English
+
+C1 — comfortable working and communicating in English (also German B1, Russian native).
