@@ -3,10 +3,337 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>Liudmila Shapkina — CV</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <header>
+    <div class="container">
+
+      <img
+        class="avatar"
+        src="assets/avatar.jpg"
+        alt="Liudmila Shapkina"
+      >
+
+      <div class="header-content">
+        <h1>Liudmila Shapkina</h1>
+        <p>Backend / DevOps Engineer</p>
+
+        <ul class="contacts">
+          <li>
+            <a href="mailto:shapkina199@gmail.com">
+              shapkina199@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/shapkina-l">
+              github.com/shapkina-l
+            </a>
+          </li>
+          <li>Berlin / Remote</li>
+        </ul>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="profile">
+      <div class="container">
+        <h2>Profile</h2>
+
+        <p>
+          Backend developer and DevOps engineer with hands-on experience
+          in systems programming with C/C++ and Python, deploying services,
+          and configuring CI/CD pipelines. Graduate of School 42 Berlin.
+          Skilled at establishing reliable code delivery processes and
+          building resilient infrastructure from the ground up.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <ul class="skills-list">
+          <li>
+            <strong>Programming Languages:</strong>
+            C, C++98/11, Python, SQL, Bash
+          </li>
+
+          <li>
+            <strong>DevOps &amp; Infrastructure:</strong>
+            Docker, CI/CD (GitHub Actions), Makefile
+          </li>
+
+          <li>
+            <strong>Cloud Platforms:</strong>
+            Railway, DigitalOcean
+          </li>
+
+          <li>
+            <strong>Databases:</strong>
+            PostgreSQL, SQLite, SQLAlchemy
+          </li>
+
+          <li>
+            <strong>Backend:</strong>
+            REST API, HTTP servers, Telegram Bot API, asyncio
+          </li>
+
+          <li>
+            <strong>Systems &amp; Tools:</strong>
+            Linux, Unix, Git, Make, VS Code
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <div class="container">
+        <h2>Key Projects</h2>
+
+        <article>
+          <h3>Webserv — HTTP Server from Scratch</h3>
+
+          <p>
+            <strong>Technologies:</strong>
+            C++98, Unix sockets, poll(), GitHub Actions
+          </p>
+
+          <ul>
+            <li>
+              Built an HTTP/1.0 server in C++98 without third-party
+              libraries as part of a 3-person team, using non-blocking
+              I/O via poll() and supporting GET, POST and DELETE methods
+              and static file serving.
+            </li>
+
+            <li>
+              Set up a CI/CD pipeline with GitHub Actions for automatic
+              builds and linting on every push.
+            </li>
+          </ul>
+        </article>
+
+
+        <article>
+          <h3>Minishell — Unix Shell from Scratch</h3>
+
+          <p>
+            <strong>Technologies:</strong>
+            C, Unix, processes, signals
+          </p>
+
+          <ul>
+            <li>
+              Implemented a bash-like shell in C with command parsing,
+              environment variables and built-in commands including
+              cd, echo, export, unset, env and exit.
+            </li>
+
+            <li>
+              Implemented pipes, I/O redirections, signal handling and
+              child process management using fork() and execve().
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="code">
+      <div class="container">
+        <h2>Code Example</h2>
+
+        <pre><code>struct pollfd server;
+
+server.fd = socket_fd;
+server.events = POLLIN;
+server.revents = 0;
+
+poll(&amp;server, 1, -1);</code></pre>
+
+      </div>
+    </section>
+
+
+    <section id="experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+
+        <article>
+          <h3>Architect / Geographic Information Systems Specialist</h3>
+
+          <p>
+            <strong>Freelance · Remote</strong>
+            <span>2023 — 2026</span>
+          </p>
+
+          <ul>
+            <li>
+              Managed projects end-to-end, from client briefing to
+              final documentation.
+            </li>
+
+            <li>
+              Worked with geographic information systems and spatial data
+              using QGIS and ArcGIS.
+            </li>
+
+            <li>
+              Wrote Python scripts to automate data transformation,
+              batch processing and coordinate system conversions.
+            </li>
+
+            <li>
+              Transitioned into IT while studying at School 42 Berlin.
+            </li>
+          </ul>
+        </article>
+
+
+        <article>
+          <h3>Lead Architect</h3>
+
+          <p>
+            <strong>NPI ENKO LLC · Saint Petersburg</strong>
+            <span>2021 — 2023</span>
+          </p>
+
+          <ul>
+            <li>
+              Developed urban planning documentation and managed
+              projects independently.
+            </li>
+
+            <li>
+              Communicated with clients and regulatory authorities.
+            </li>
+
+            <li>
+              Mentored junior staff members.
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+
+        <article>
+          <h3>Programming — Backend &amp; Systems Software</h3>
+
+          <p>
+            <strong>School 42 Berlin · Berlin</strong>
+            <span>2024 — 2026</span>
+          </p>
+
+          <p>
+            Peer-to-peer learning covering C/C++, Unix, networking,
+            algorithms and software architecture.
+          </p>
+        </article>
+
+
+        <article>
+          <h3>Bachelor of Architecture</h3>
+
+          <p>
+            <strong>SPbSUACE · Saint Petersburg</strong>
+            <span>2017 — 2022</span>
+          </p>
+
+          <p>
+            ZAB evaluation: equivalent to a German university
+            Bachelor's degree.
+          </p>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="languages">
+      <div class="container">
+        <h2>Languages</h2>
+
+        <ul>
+          <li>Russian — Native</li>
+          <li>English — C1</li>
+          <li>German — B1</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <ul>
+          <li>
+            <a href="mailto:shapkina199@gmail.com">
+              shapkina199@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/shapkina-l">
+              github.com/shapkina-l
+            </a>
+          </li>
+
+          <li>Berlin / Remote</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="container">
+
+      <a href="https://github.com/shapkina-l">
+        GitHub
+      </a>
+
+      <span>© 2026 Liudmila Shapkina</span>
+
+      <a href="https://rs.school/">
+        <img
+          src="assets/rs-school-logo.svg"
+          alt="RS School"
+        >
+      </a>
+
+    </div>
+  </footer>
 
 </body>
 </html>
+
